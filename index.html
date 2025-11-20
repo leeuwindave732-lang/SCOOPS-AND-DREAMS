@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoops & Dreams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.8/assets/owl.carousel.min.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-light py-3">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0">
+                <h1 class="m-0 display-4 text-uppercase">Scoops & Dreams</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="about-us.html" class="nav-item nav-link">About</a>
+                    <a href="menu.html" class="nav-item nav-link">Menu</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="reservation.html" class="dropdown-item"><i class="fas fa-calendar-alt mr-2"></i>Reservation</a>
+                            <a href="testimonial.html" class="dropdown-item"><i class="fas fa-star mr-2"></i>Testimonial</a>
+                            <a href="gallery.html" class="dropdown-item"><i class="fas fa-images mr-2"></i>Gallery</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div id="home" class="container-fluid page-header mb-5 position-relative overlay-bottom">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-uppercase">Welcome to Scoops & Dreams</h1>
+            <div class="d-inline-flex mb-lg-5">
+                <p class="m-0">Home</p>
+            </div>
+            <a href="#menu" class="btn btn-primary btn-lg mt-3">Explore Our Menu</a>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
+                <h1 class="display-4">Serving Since 2020</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Our Story</h1>
+                    <h5 class="mb-3">Born from a childhood dream in 2020, Scoops & Dreams started as a small passion project to bring joy through ice cream.</h5>
+                    <p>Our founders, lifelong ice cream enthusiasts, traveled the world to discover unique flavors and techniques. Today, we craft each scoop with love, using premium ingredients sourced from local farms and exotic suppliers. Every visit to Scoops & Dreams is an invitation to create sweet memories and indulge in creamy perfection.</p>
+                    <a href="#menu" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="icecreamImages/about1.webp" style="object-fit: cover;" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Our Vision</h1>
+                    <p>We envision a world where every ice cream moment is special, fostering connections and memories through our carefully crafted scoops.</p>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Premium quality ingredients sourced globally</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Expert artisans with years of experience</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>A welcoming atmosphere for all</h5>
+                    <a href="#menu" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Menu Start -->
+    <div class="container-fluid py-5" id="menu" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Menu</h4>
+                <h1 class="display-4">Delicious Ice Cream Flavors</h1>
+            </div>
+            <section class="bd-grid">
+                <article class="card">
+                    <img src="icecreamImages/Vanilla.jpg" alt="Classic Vanilla" class="card__img" loading="lazy" />
+                    <span class="card__badge">Popular</span>
+                    <span class="card__name">Classic Vanilla</span>
+                    <p class="card__precis">Rich, creamy vanilla ice cream made with Madagascar vanilla beans. Smooth and timeless.</p>
+                    <span class="card__price">$4.50</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/chocolate.jpg" alt="Rich Chocolate" class="card__img" loading="lazy" />
+                    <span class="card__badge">Classic</span>
+                    <span class="card__name">Rich Chocolate</span>
+                    <p class="card__precis">Decadent dark chocolate ice cream with intense cocoa flavor. A chocolate lover's dream.</p>
+                    <span class="card__price">$5.00</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/cookiesNcream.jpg" alt="Cookies and Cream" class="card__img" loading="lazy" />
+                    <span class="card__badge">Fun</span>
+                    <span class="card__name">Cookies and Cream</span>
+                    <p class="card__precis">Vanilla ice cream loaded with crushed chocolate cookies. Crunchy, creamy perfection.</p>
+                    <span class="card__price">$5.50</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/mint_chocolate_chip.jpg" alt="Mint Chocolate Chip" class="card__img" loading="lazy" />
+                    <span class="card__badge">Refreshing</span>
+                    <span class="card__name">Mint Chocolate Chip</span>
+                    <p class="card__precis">Cool mint ice cream studded with rich chocolate chips. Refreshingly delicious.</p>
+                    <span class="card__price">$5.25</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/rockyroad.jpg" alt="Rocky Road" class="card__img" loading="lazy" />
+                    <span class="card__badge">Adventure</span>
+                    <span class="card__name">Rocky Road</span>
+                    <p class="card__precis">Chocolate ice cream with marshmallows, almonds, and chocolate chunks. A bumpy ride of flavor!</p>
+                    <span class="card__price">$6.00</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/dark_chocolate.jpg" alt="Dark Chocolate" class="card__img" loading="lazy" />
+                    <span class="card__badge">Premium</span>
+                    <span class="card__name">Dark Chocolate</span>
+                    <p class="card__precis">Intense 70% cocoa dark chocolate ice cream. For the sophisticated chocolate enthusiast.</p>
+                    <span class="card__price">$5.75</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/Mango.jpg" alt="Tropical Mango" class="card__img" loading="lazy" />
+                    <span class="card__badge">Exotic</span>
+                    <span class="card__name">Tropical Mango</span>
+                    <p class="card__precis">Sweet, juicy mango ice cream bursting with tropical flavor. A taste of paradise.</p>
+                    <span class="card__price">$5.50</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/ube.jpg" alt="Exotic Ube" class="card__img" loading="lazy" />
+                    <span class="card__badge">Unique</span>
+                    <span class="card__name">Exotic Ube</span>
+                    <p class="card__precis">Purple yam ice cream with a subtle, nutty flavor. A Filipino favorite with a twist.</p>
+                    <span class="card__price">$5.75</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/Avocado.jpg" alt="Green Avocado" class="card__img" loading="lazy" />
+                    <span class="card__badge">Healthy</span>
+                    <span class="card__name">Green Avocado</span>
+                    <p class="card__precis">Creamy avocado ice cream that's surprisingly delicious. Healthy fats meet sweet indulgence.</p>
+                    <span class="card__price">$6.25</span>
+                </article>
+            </section>
+        </div>
+    </div>
+    <!-- Menu End -->
+
+    <!-- Reservation Start -->
+    <div class="container-fluid py-5 reservation" id="reservation" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Reservation</h4>
+                <h1 class="display-4">Book Your Table</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="reservation-form">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="time" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" required>
+                                    <option value="">Party Size</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5+ People</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary font-weight-bold py-2 px-4">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="reservation-info">
+                        <h3>Reservation Information</h3>
+                        <p>Make a reservation to enjoy our delicious ice creams in a cozy atmosphere. We recommend booking in advance, especially during peak hours.</p>
+                        <ul>
+                            <li>Reservations are held for 15 minutes past the reserved time.</li>
+                            <li>Large groups (5+) may require special arrangements.</li>
+                            <li>Contact us for any special requests or dietary needs.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Reservation End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="testimonial" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
+                <h1 class="display-4">Our Customers Say</h1>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid rounded-circle mx-auto mb-4" src="icecreamImages/Vanilla.jpg" alt="Customer 1" loading="lazy">
+                            <p class="mb-4">"The best ice cream I've ever had! The flavors are incredible and the service is top-notch."</p>
+                            <h5>Sarah Johnson</h5>
+                            <span>Regular Customer</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid rounded-circle mx-auto mb-4" src="icecreamImages/chocolate.jpg" alt="Customer 2" loading="lazy">
+                            <p class="mb-4">"Scoops & Dreams is my go-to spot. The chocolate ice cream is to die for!"</p>
+                            <h5>Mike Chen</h5>
+                            <span>Food Blogger</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid rounded-circle mx-auto mb-4" src="icecreamImages/Mango.jpg" alt="Customer 3" loading="lazy">
+                            <p class="mb-4">"Amazing atmosphere and delicious scoops. Highly recommend the mango flavor!"</p>
+                            <h5>Emily Davis</h5>
+                            <span>Local Resident</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Gallery Start -->
+    <div class="container-fluid py-5" id="gallery" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Gallery</h4>
+                <h1 class="display-4">Our Ice Cream & Shop</h1>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="icecreamHistory/History1.webp" alt="Ancient Ice Cream History" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="icecreamHistory/History2.webp" alt="Modern Ice Cream Production" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="icecreamHistory/History3.webp" alt="Ice Cream Artistry" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="icecreamImages/Vanilla.jpg" alt="Classic Vanilla Display" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="icecreamImages/chocolate.jpg" alt="Chocolate Ice Cream" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="icecreamImages/Mango.jpg" alt="Tropical Mango Ice Cream" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contact Us</h4>
+                <h1 class="display-4">Get In Touch</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary font-weight-bold py-2 px-4">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Have questions or want to place a special order? Reach out to us!</p>
+                        <div class="contact-item">
+                            <i class="fa fa-map-marker-alt"></i>
+                            <span>123 Sweet Street, Flavor Town, IC 12345</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa fa-phone-alt"></i>
+                            <span>(123) 456-7890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa fa-envelope"></i>
+                            <span>info@scoopsanddreams.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa fa-clock"></i>
+                            <span>Mon-Fri: 10AM-8PM, Sat-Sun: 11AM-9PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            <div class="col-lg-2 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Scoops & Dreams</h4>
+                <p class="mb-3">Crafting dreamy ice cream experiences since 2020. Passionate artisans, premium ingredients.</p>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Quick Links</h4>
+                <div class="d-flex flex-column">
+                    <a href="index.html" class="text-white mb-2">Home</a>
+                    <a href="about-us.html" class="text-white mb-2">About</a>
+                    <a href="menu.html" class="text-white mb-2">Menu</a>
+                    <a href="reservation.html" class="text-white mb-2">Reservation</a>
+                    <a href="testimonial.html" class="text-white mb-2">Testimonial</a>
+                    <a href="gallery.html" class="text-white mb-2">Gallery</a>
+                    <a href="contact.html" class="text-white mb-2">Contact</a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Rizal Avenue, Manila, Philippines</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>(123) 456-7890</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@scoopsanddreams.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
+                <div>
+                    <h6 class="text-white text-uppercase">Monday - Friday</h6>
+                    <p>10.00 AM - 8.00 PM</p>
+                    <h6 class="text-white text-uppercase">Saturday - Sunday</h6>
+                    <p>11.00 AM - 9.00 PM</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
+                <p>Subscribe for exclusive deals and flavor updates.</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="email" class="form-control border-light" style="padding: 25px;" placeholder="Enter your email" required>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
+                        </div>
+                    </div>
+                    <small class="text-white-50 mt-2 d-block">We respect your privacy. Unsubscribe at any time.</small>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Scoops & Dreams</a>. All Rights Reserved.</a></p>
+            <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://www.fiverr.com/s/0bYDmwE">Leeuwin</a> Distributed by <a href="https://www.fiverr.com/s/0bYDmwE" target="_blank">fiverr</a></p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top btn btn-primary btn-lg-square" id="back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+    <!-- Modal for Gallery -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.8/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

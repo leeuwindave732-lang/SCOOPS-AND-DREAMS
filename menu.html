@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Scoops & Dreams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-light py-3">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0">
+                <h1 class="m-0 display-4 text-uppercase">Scoops & Dreams</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about-us.html" class="nav-item nav-link">About</a>
+                    <a href="menu.html" class="nav-item nav-link active">Menu</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="reservation.html" class="dropdown-item"><i class="fas fa-calendar-alt mr-2"></i>Reservation</a>
+                            <a href="testimonial.html" class="dropdown-item"><i class="fas fa-star mr-2"></i>Testimonial</a>
+                            <a href="gallery.html" class="dropdown-item"><i class="fas fa-images mr-2"></i>Gallery</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-uppercase">Our Menu</h1>
+            <div class="d-inline-flex mb-lg-5">
+                <p class="m-0">Home</p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0">Menu</p>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Menu Start -->
+    <div class="container-fluid py-5 menu" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Menu</h4>
+                <h1 class="display-4">Delicious Ice Cream Flavors</h1>
+            </div>
+            <section class="bd-grid">
+                <article class="card">
+                    <img src="icecreamImages/Vanilla.jpg" alt="Classic Vanilla" class="card__img" loading="lazy" />
+                    <span class="card__badge">Popular</span>
+                    <span class="card__name">Classic Vanilla</span>
+                    <p class="card__precis">Rich, creamy vanilla ice cream made with Madagascar vanilla beans. Smooth and timeless.</p>
+                    <span class="card__price">$4.50</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/chocolate.jpg" alt="Rich Chocolate" class="card__img" loading="lazy" />
+                    <span class="card__badge">Classic</span>
+                    <span class="card__name">Rich Chocolate</span>
+                    <p class="card__precis">Decadent dark chocolate ice cream with intense cocoa flavor. A chocolate lover's dream.</p>
+                    <span class="card__price">$5.00</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/cookiesNcream.jpg" alt="Cookies and Cream" class="card__img" loading="lazy" />
+                    <span class="card__badge">Fun</span>
+                    <span class="card__name">Cookies and Cream</span>
+                    <p class="card__precis">Vanilla ice cream loaded with crushed chocolate cookies. Crunchy, creamy perfection.</p>
+                    <span class="card__price">$5.50</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/mint_chocolate_chip.jpg" alt="Mint Chocolate Chip" class="card__img" loading="lazy" />
+                    <span class="card__badge">Refreshing</span>
+                    <span class="card__name">Mint Chocolate Chip</span>
+                    <p class="card__precis">Cool mint ice cream studded with rich chocolate chips. Refreshingly delicious.</p>
+                    <span class="card__price">$5.25</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/rockyroad.jpg" alt="Rocky Road" class="card__img" loading="lazy" />
+                    <span class="card__badge">Adventure</span>
+                    <span class="card__name">Rocky Road</span>
+                    <p class="card__precis">Chocolate ice cream with marshmallows, almonds, and chocolate chunks. A bumpy ride of flavor!</p>
+                    <span class="card__price">$6.00</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/dark_chocolate.jpg" alt="Dark Chocolate" class="card__img" loading="lazy" />
+                    <span class="card__badge">Premium</span>
+                    <span class="card__name">Dark Chocolate</span>
+                    <p class="card__precis">Intense 70% cocoa dark chocolate ice cream. For the sophisticated chocolate enthusiast.</p>
+                    <span class="card__price">$5.75</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/Mango.jpg" alt="Tropical Mango" class="card__img" loading="lazy" />
+                    <span class="card__badge">Exotic</span>
+                    <span class="card__name">Tropical Mango</span>
+                    <p class="card__precis">Sweet, juicy mango ice cream bursting with tropical flavor. A taste of paradise.</p>
+                    <span class="card__price">$5.50</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/ube.jpg" alt="Exotic Ube" class="card__img" loading="lazy" />
+                    <span class="card__badge">Unique</span>
+                    <span class="card__name">Exotic Ube</span>
+                    <p class="card__precis">Purple yam ice cream with a subtle, nutty flavor. A Filipino favorite with a twist.</p>
+                    <span class="card__price">$5.75</span>
+                </article>
+
+                <article class="card">
+                    <img src="icecreamImages/Avocado.jpg" alt="Green Avocado" class="card__img" loading="lazy" />
+                    <span class="card__badge">Healthy</span>
+                    <span class="card__name">Green Avocado</span>
+                    <p class="card__precis">Creamy avocado ice cream that's surprisingly delicious. Healthy fats meet sweet indulgence.</p>
+                    <span class="card__price">$6.25</span>
+                </article>
+            </section>
+        </div>
+    </div>
+    <!-- Menu End -->
+
+    <!-- Seasonal Specials Start -->
+    <div class="container-fluid py-5" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Seasonal Specials</h4>
+                <h1 class="display-4">Limited Time Flavors</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="special-item text-center">
+                        <img class="img-fluid rounded-circle w-100 mb-4" src="icecreamImages/special1.jpg" alt="Pumpkin Spice" loading="lazy">
+                        <h5>Pumpkin Spice Delight</h5>
+                        <p>Our autumn favorite: creamy pumpkin ice cream with cinnamon swirls and ginger snaps.</p>
+                        <span class="badge badge-primary">Available Oct-Nov</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="special-item text-center">
+                        <img class="img-fluid rounded-circle w-100 mb-4" src="icecreamImages/special2.webp" alt="Peppermint Bark" loading="lazy">
+                        <h5>Peppermint Bark</h5>
+                        <p>Festive peppermint ice cream with dark chocolate chunks and crushed candy cane.</p>
+                        <span class="badge badge-primary">Available Dec-Jan</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="special-item text-center">
+                        <img class="img-fluid rounded-circle w-100 mb-4" src="icecreamImages/special3.webp" alt="Strawberry Shortcake" loading="lazy">
+                        <h5>Strawberry Shortcake</h5>
+                        <p>Fresh strawberry ice cream layered with vanilla cake pieces and whipped cream swirls.</p>
+                        <span class="badge badge-primary">Available May-Jun</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seasonal Specials End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            <div class="col-lg-2 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Scoops & Dreams</h4>
+                <p class="mb-3">Crafting dreamy ice cream experiences since 2020. Passionate artisans, premium ingredients.</p>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2 tooltip" href="#" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Quick Links</h4>
+                <div class="d-flex flex-column">
+                    <a href="index.html" class="text-white mb-2">Home</a>
+                    <a href="about-us.html" class="text-white mb-2">About</a>
+                    <a href="menu.html" class="text-white mb-2">Menu</a>
+                    <a href="reservation.html" class="text-white mb-2">Reservation</a>
+                    <a href="testimonial.html" class="text-white mb-2">Testimonial</a>
+                    <a href="gallery.html" class="text-white mb-2">Gallery</a>
+                    <a href="contact.html" class="text-white mb-2">Contact</a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Rizal Avenue, Manila, Philippines</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>(123) 456-7890</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@scoopsanddreams.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
+                <div>
+                    <h6 class="text-white text-uppercase">Monday - Friday</h6>
+                    <p>10.00 AM - 8.00 PM</p>
+                    <h6 class="text-white text-uppercase">Saturday - Sunday</h6>
+                    <p>11.00 AM - 9.00 PM</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
+                <p>Subscribe for exclusive deals and flavor updates.</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="email" class="form-control border-light" style="padding: 25px;" placeholder="Enter your email" required>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
+                        </div>
+                    </div>
+                    <small class="text-white-50 mt-2 d-block">We respect your privacy. Unsubscribe at any time.</small>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Scoops & Dreams</a>. All Rights Reserved.</a></p>
+            <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://www.fiverr.com/s/0bYDmwE">Leeuwin</a> Distributed by <a href="https://www.fiverr.com/s/0bYDmwE" target="_blank">fiverr</a></p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top btn btn-primary btn-lg-square" id="back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
