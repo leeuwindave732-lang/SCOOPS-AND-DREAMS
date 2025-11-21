@@ -29,17 +29,17 @@
     }
 
     .navbar-brand h1 {
-        font-size: 0.6rem !important;
+        font-size: 1rem !important;
     }
 
     .navbar-toggler {
-        width: 40px;
-        height: 40px;
-        padding: 0.3rem;
         display: block;
-        background: transparent !important;
-        border: 1px solid rgba(255, 255, 255, 0.5) !important;
+        background: rgba(255, 255, 255, 0.9) !important;
+        border: 1px solid rgba(255, 255, 255, 0.95) !important;
         border-radius: 6px;
+        padding: 0.5rem;
+        width: 50px;
+        height: 50px;
         transition: all 0.3s ease;
         backdrop-filter: blur(10px);
     }
@@ -50,9 +50,9 @@
     }
 
     .navbar-toggler-icon {
-        width: 16px;
-        height: 16px;
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+        width: 20px !important;
+        height: 20px !important;
     }
 
     .menu__item {
@@ -201,9 +201,9 @@
         background: rgba(255, 255, 255, 0.9) !important;
         border: 1px solid rgba(255, 255, 255, 0.95) !important;
         border-radius: 6px;
-        padding: 0.4rem;
-        width: 45px;
-        height: 45px;
+        padding: 0.5rem;
+        width: 50px;
+        height: 50px;
         transition: all 0.3s ease;
         backdrop-filter: blur(10px);
     }
@@ -215,8 +215,8 @@
 
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-        width: 18px;
-        height: 18px;
+        width: 20px !important;
+        height: 20px !important;
     }
 
     .nav__list {
@@ -452,8 +452,8 @@
 
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
 
     .nav__list {
