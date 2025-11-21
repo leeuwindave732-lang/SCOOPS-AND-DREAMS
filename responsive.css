@@ -1,7 +1,385 @@
 /* Responsive CSS inspired by Boba Co - Modern, clean, and mobile-first design */
 
-/* Mobile First - Base styles for small screens */
-@media (max-width: 576px) {
+/* Ultra Small Devices (phones, <375px) */
+@media (max-width: 374.98px) {
+    .container {
+        padding: 0 0.25rem;
+    }
+
+    .section {
+        padding: 1rem 0 0.25rem;
+    }
+
+    .section__title {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .home__title {
+        font-size: 0.9rem;
+    }
+
+    .home__subtitle {
+        font-size: 0.7rem;
+    }
+
+    .home__button {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.7rem;
+    }
+
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0.3rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .menu__item {
+        padding: 0.5rem;
+    }
+
+    .menu__item-img {
+        height: 80px;
+    }
+
+    .menu__item-title {
+        font-size: 0.8rem;
+    }
+
+    .menu__item-description {
+        font-size: 0.7rem;
+    }
+
+    .menu__item-price {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        margin-bottom: 0.5rem;
+    }
+
+    .card__name {
+        font-size: 0.8rem;
+    }
+
+    .card__precis {
+        font-size: 0.7rem;
+    }
+
+    .card__price {
+        font-size: 0.8rem;
+    }
+
+    .bd-grid {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .page-header h1 {
+        font-size: 1rem;
+    }
+
+    .page-header p {
+        font-size: 0.8rem;
+    }
+
+    .section-title h1 {
+        font-size: 1rem;
+    }
+
+    .testimonial-item {
+        padding: 10px;
+    }
+
+    .testimonial-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .reservation-form,
+    .contact-form {
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 1rem 0 0.25rem;
+    }
+
+    .footer__container {
+        row-gap: 0.5rem;
+    }
+
+    .footer__title {
+        font-size: 0.8rem;
+    }
+
+    .back-to-top {
+        width: 30px;
+        height: 30px;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    .navbar-collapse {
+        width: 80%;
+        padding: 1rem;
+        top: 2.5rem;
+        height: calc(100vh - 2.5rem);
+    }
+
+    .navbar-nav {
+        gap: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+}
+
+/* Extra Small Devices (phones, 375px - 575px) */
+@media (min-width: 375px) and (max-width: 575.98px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .section {
+        padding: 1.5rem 0 0.5rem;
+    }
+
+    .section__title {
+        font-size: 1.25rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .home__title {
+        font-size: 1rem;
+    }
+
+    .home__subtitle {
+        font-size: 0.8rem;
+    }
+
+    .home__button {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .navbar-toggler {
+        display: block;
+        background: rgba(255, 255, 255, 0.9) !important;
+        border: 1px solid rgba(255, 255, 255, 0.95) !important;
+        border-radius: 6px;
+        padding: 0.4rem;
+        width: 45px;
+        height: 45px;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+
+    .navbar-toggler:hover {
+        background: rgba(255, 255, 255, 1) !important;
+        transform: scale(1.05);
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+        width: 18px;
+        height: 18px;
+    }
+
+    .nav__list {
+        gap: 0.75rem;
+    }
+
+    .nav__link {
+        font-size: 0.85rem;
+    }
+
+    .menu__content {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .menu__item {
+        padding: 0.75rem;
+    }
+
+    .menu__item-img {
+        height: 100px;
+    }
+
+    .menu__item-title {
+        font-size: 0.9rem;
+    }
+
+    .menu__item-description {
+        font-size: 0.75rem;
+    }
+
+    .menu__item-price {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        margin-bottom: 0.75rem;
+    }
+
+    .card__name {
+        font-size: 0.9rem;
+    }
+
+    .card__precis {
+        font-size: 0.75rem;
+    }
+
+    .card__price {
+        font-size: 0.9rem;
+    }
+
+    .bd-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.25rem;
+    }
+
+    .page-header p {
+        font-size: 0.9rem;
+    }
+
+    .section-title h1 {
+        font-size: 1.25rem;
+    }
+
+    .testimonial-item {
+        padding: 15px;
+    }
+
+    .testimonial-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .reservation-form,
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-item i {
+        margin-right: 0;
+        margin-bottom: 3px;
+    }
+
+    .footer {
+        padding: 1.5rem 0 0.5rem;
+    }
+
+    .footer__container {
+        row-gap: 0.75rem;
+    }
+
+    .footer__title {
+        font-size: 0.9rem;
+    }
+
+    .back-to-top {
+        width: 35px;
+        height: 35px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    /* Bootstrap navbar collapse for extra small mobile */
+    .navbar-collapse {
+        position: fixed;
+        top: 3rem;
+        right: -100%;
+        width: 75%;
+        height: calc(100vh - 3rem);
+        background-color: rgba(0, 0, 0, 0.95);
+        padding: 1.5rem;
+        transition: right 0.3s ease;
+        backdrop-filter: blur(10px);
+        border-radius: 0 0 0 8px;
+        z-index: 1000;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        font-size: 1rem;
+        padding: 0.6rem 0;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #007bff !important;
+        transform: translateX(3px);
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: static;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        border-radius: 6px;
+        box-shadow: none;
+        padding: 0.4rem 0;
+        margin-top: 0.4rem;
+        width: 100%;
+    }
+
+    .navbar-nav .dropdown-item {
+        color: #fff;
+        padding: 0.4rem 0.8rem;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .navbar-nav .dropdown-item:hover {
+        background: rgba(0, 123, 255, 0.2);
+        color: #fff;
+        transform: translateX(3px);
+    }
+
+    .navbar-nav .dropdown-item:last-child {
+        border-bottom: none;
+    }
+}
+
+/* Small Devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
     .container {
         padding: 0 1rem;
     }
@@ -159,6 +537,81 @@
         height: 40px;
         bottom: 15px;
         right: 15px;
+    }
+
+    /* Bootstrap navbar collapse for mobile */
+    .navbar-collapse {
+        position: fixed;
+        top: 3rem;
+        right: -100%;
+        width: 70%;
+        height: calc(100vh - 3rem);
+        background-color: rgba(0, 0, 0, 0.95);
+        padding: 2rem;
+        transition: right 0.3s ease;
+        backdrop-filter: blur(10px);
+        border-radius: 0 0 0 10px;
+        z-index: 1000;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        font-size: 1.1rem;
+        padding: 0.75rem 0;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #007bff !important;
+        transform: translateX(5px);
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: static;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        border-radius: 8px;
+        box-shadow: none;
+        padding: 0.5rem 0;
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+
+    .navbar-nav .dropdown-item {
+        color: #fff;
+        padding: 0.5rem 1rem;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .navbar-nav .dropdown-item:hover {
+        background: rgba(0, 123, 255, 0.2);
+        color: #fff;
+        transform: translateX(5px);
+    }
+
+    .navbar-nav .dropdown-item:last-child {
+        border-bottom: none;
     }
 }
 
@@ -488,6 +941,30 @@
         padding: 4rem 0 2rem;
     }
 
+    /* Ensure navbar toggle is visible on desktop screens */
+    .navbar-toggler {
+        display: block;
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        border-radius: 6px;
+        padding: 0.5rem;
+        width: 50px;
+        height: 50px;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+
+    .navbar-toggler:hover {
+        background: rgba(255, 255, 255, 1);
+        transform: scale(1.05);
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        width: 20px;
+        height: 20px;
+    }
+
     .menu__content {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -533,6 +1010,30 @@
     .footer__container {
         grid-template-columns: repeat(4, 1fr);
         gap: 4rem;
+    }
+
+    /* Ensure navbar toggle is visible on large desktops */
+    .navbar-toggler {
+        display: block;
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        border-radius: 6px;
+        padding: 0.5rem;
+        width: 50px;
+        height: 50px;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+
+    .navbar-toggler:hover {
+        background: rgba(255, 255, 255, 1);
+        transform: scale(1.05);
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -636,3 +1137,5 @@
         font-size: 1.1rem;
     }
 }
+
+
